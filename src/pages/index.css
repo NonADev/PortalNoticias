@@ -2,7 +2,7 @@ body {
     background-color: #d9d9d9 !important;
 }
 
-.row > div {
+.row-content > div {
     margin-top: 1rem;
 }
 
@@ -15,36 +15,15 @@ body {
     max-height: 20rem;
     object-fit: cover;
     object-position: top;
-}
-
-.form-inline {
-    margin-right: 14rem;
-}
-
-.card-img-top {
     height: 15rem;
 }
 
-.card-body {
-    text-decoration: none;
-    color: black;
+.carousel-item > img {
+    height: 25.5rem;
+    object-fit: cover;
+    object-position: top;
 }
 
-.card-body:hover {
-    text-decoration: none;
-    color: black;
-}
-
-.navbar-title {
-    margin-left: 0.5rem;
-}
-
-.navbar-site-icon {
-    margin-left: 14rem;
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.autor-signature {
-    font-style: italic;
+.carousel-item > div {
+    background-color: rgba(0, 0, 0, 0.5);
 }
